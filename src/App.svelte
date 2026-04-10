@@ -1,6 +1,9 @@
 <script lang="ts">
 	import { onMount } from "svelte";
-	import OptionButton from "./components/optionButton.svelte";
+	import Start from "./components/Start.svelte";
+	import OptionButton from "./components/OptionButton.svelte";
+	import Question from "./components/Question.svelte";
+	import { getPersonalityType } from './utils';
 
 	// Store the fetched questions (optional; primarily we console.log them)
 	let questions: [] = [];
@@ -8,19 +11,15 @@
 
 	onMount(async () => {
 		try {
-			// Fetch from the public folder at the app root
 			const res = await fetch("/questions.json");
 
 			if (!res.ok) {
 				throw new Error(
-					`Failed to fetch /questions.json: ${res.status} ${res.statusText}`,
+					`Failed to fetch questions: ${res.status} ${res.statusText}`,
 				);
 			}
 
 			questions = await res.json();
-
-			// Log the fetched JSON to the console as requested
-			console.log("questions.json:", questions);
 		} catch (err) {
 			fetchError = err;
 			console.error("Error fetching questions.json:", err);
@@ -28,27 +27,41 @@
 	});
 
 	let step = $state(-1);
+	let personalitiesCount = $state("");
+	let playerName = $state("");
+	
+	$inspect(playerName);
+	
+	const handleNextQuestion = (value:[]) => {
+	  personalitiesCount += value.join("");
+	  step += 1;
+	}
+	
+	const handleReset = () => {
+	  step = -1;
+		personalitiesCount = ""
+	}
 </script>
 
 <h1 hidden={step >= 0}>Your Alien Personality Quiz</h1>
 
 {#if step < 0}
-	{#if fetchError}
-		<p style="color: red">
-			Error loading questions.json. See console for details.
-		</p>
-	{:else if questions === null}
-		<p>Loading questions.json…</p>
-	{:else}
-		<OptionButton
-			text={"Start"}
-			onclick={() => {
-				step = 0;
-			}}
-		/>
-	{/if}
+  <Start {fetchError} loading={questions===null} handleStart={() => step = 0}/>
+{:else if step < questions.length}
+  {#if questions[step].question}
+    <Question qn={questions[step]} {handleNextQuestion} {playerName}/>
+  {:else}
+    <h2>{questions[step].cutscene ? questions[step].cutscene : "Invalid question."}</h2>
+    
+    {#if step === 0}
+      <input bind:value={playerName}/>
+    {/if}
+    
+    <OptionButton text={"Next"} onclick={()=>step+=1} />
+  {/if}
 {:else}
-	<p>{JSON.stringify(questions[step])}</p>
+  <h2>Your personality is {getPersonalityType(personalitiesCount)}</h2>
+  <OptionButton text={"Reset"} onclick={handleReset}/>
 {/if}
 
 <style>
