@@ -1,0 +1,284 @@
+[
+	{
+		"cutscene": "Enter your name"
+	},
+	{
+		"question": "It's late... and you've just reached home after an exhausting day of work.\nThe night sky is full of stars.",
+		"calltoaction": "What are you thinking about?",
+		"options": [
+			{
+				"text": "Time for bed, I have to get up early tomorrow.",
+				"value": ["I", "T"]
+			},
+			{
+				"text": "I can finally rest!! Time to doomscroll!",
+				"value": ["I", "F"]
+			},
+			{
+				"text": "Wow... so many stars tonight! Maybe i'll stay up a bit longer.",
+				"value": ["E", "T"]
+			},
+			{
+				"text": "I wish my friends were here to enjoy this moment with me.",
+				"value": ["E", "F"]
+			}
+		]
+	},
+	{
+		"cutscene": "Suddenly, you hear a voice.\nYou look around, but you find nothing.\nIt seems to come from all around you."
+	},
+	{
+		"question": "Can you hear me, [Player]?\nDon't be afraid.",
+		"calltoaction": "How do you respond?",
+		"options": [
+			{
+				"text": "Strange, my inner voice sounds different today...",
+				"value": ["S", "I"]
+			},
+			{
+				"text": "What the- who are you? where are you?",
+				"value": ["S", "E"]
+			},
+			{
+				"text": "...What?",
+				"value": ["N", "I"]
+			},
+			{
+				"text": "Am I hallucinating this?",
+				"value": ["N", "E"]
+			}
+		]
+	},
+	{
+		"question": "My name is [Alien],\nI can't show you my real form, but I can produce an... expression of myself. Look at your window.",
+		"calltoaction": "You look and you see...",
+		"options": [
+			{
+				"text": "A shadowy silhouette shaped like a person. You feel goosebumps.",
+				"value": ["T", "S"]
+			},
+			{
+				"text": "A cat looking creature. Its fur blends into the night.",
+				"value": ["T", "N"]
+			},
+			{
+				"text": "A rabbit looking creature. Its eyes are bright red.",
+				"value": ["F", "S"]
+			},
+			{
+				"text": "A blue butterfly. It seems to be glowing.",
+				"value": ["F", "N"]
+			}
+		]
+	},
+	{
+		"question": "Follow me, I need to show you something.",
+		"calltoaction": "What do you do?",
+		"options": [
+			{
+				"text": "This looks dangerous, I think I'll pass.",
+				"value": ["J", "T"]
+			},
+			{
+				"text": "Bruh, I'm too tired for this...",
+				"value": ["J", "F"]
+			},
+			{
+				"text": "You follow, but cautiously.",
+				"value": ["P", "T"]
+			},
+			{
+				"text": "Heck yeah! Let's go.",
+				"value": ["P", "F"]
+			}
+		]
+	},
+	{
+		"question": "[[ You board a weird spaceship / Suddenly, you are abducted into a weird spaceship ]] and you immediately feel it accelerating. Not too long, you notice that you're already in the sky.",
+		"calltoaction": "What are you thinking about?",
+		"options": [
+			{
+				"text": "Wait, hold on a minute!? What is happening?? Am I about to die?",
+				"value": ["S", "J"]
+			},
+			{
+				"text": "I must be dreaming, right?",
+				"value": ["S", "P"]
+			},
+			{
+				"text": "What kind of alien technology is this?",
+				"value": ["N", "J"]
+			},
+			{
+				"text": "This is actually so cool! I can't believe aliens are real!",
+				"value": ["N", "P"]
+			}
+		]
+	},
+	{
+		"question": "[Alien] appears busy calibrating stuff.",
+		"calltoaction": "How do you react?",
+		"options": [
+			{
+				"text": "(Stay silent)",
+				"value": ["I", "J"]
+			},
+			{
+				"text": "I wonder what they need me for.",
+				"value": ["I", "P"]
+			},
+			{
+				"text": "What are they doing?",
+				"value": ["E", "J"]
+			},
+			{
+				"text": "Hey [Alien]!",
+				"value": ["E", "P"]
+			}
+		]
+	},
+	{
+		"cutscene": "So sorry, thanks for being patient with me. You see, I am the ambassador of your planet for my own. Let me just pull up something real quick."
+	},
+	{
+		"question": "[Alien] pulls up a map of the nearby star systems. You see that the Earth is marked red.",
+		"calltoaction": "How do you respond?",
+		"options": [
+			{
+				"text": "(Continue staying silent to not draw attention)",
+				"value": ["S", "I"]
+			},
+			{
+				"text": "Hey why is Earth highlighted red?",
+				"value": ["S", "E"]
+			},
+			{
+				"text": "Hmm that's weird...",
+				"value": ["N", "I"]
+			},
+			{
+				"text": "Why is the alien not talking to me?",
+				"value": ["N", "E"]
+			}
+		]
+	},
+	{
+		"cutscene": "You might be wondering why your home planet is marked red on the map. Well, the leaders of my home planet have deemed Earth suitable for colonisation, and want to strip your planet of its resources which will kill all life."
+	},
+	{
+		"cutscene": "I have arrived not too long ago but I want to protect it. But the leaders have rejected any notion to terminate the colonisation program."
+	},
+	{
+		"question": "I have essentially been deemed as a traitor to my species, and you are my last resort.",
+		"calltoaction": "How do you respond?",
+		"options": [
+			{
+				"text": "Now that's quite a pickle.",
+				"value": ["S", "T"]
+			},
+			{
+				"text": "Wait no, that's so sad.",
+				"value": ["S", "F"]
+			},
+			{
+				"text": "Man, your leaders suck.",
+				"value": ["N", "T"]
+			},
+			{
+				"text": "Woah that is so cool!",
+				"value": ["N", "F"]
+			}
+		]
+	},
+	{
+		"question": "You turn your head and see the whole of the Earth floating just outside the window.",
+		"calltoaction": "What are you thinking about?",
+		"options": [
+			{
+				"text": "So this is what astronauts see from space...\nit's just like the images on the internet.",
+				"value": ["T", "S"]
+			},
+			{
+				"text": "Will I make it home? What is going to happen to me?",
+				"value": ["T", "N"]
+			},
+			{
+				"text": "Wow! Everything looks so small from here!",
+				"value": ["F", "S"]
+			},
+			{
+				"text": "I have always dreamed of this moment.",
+				"value": ["F", "N"]
+			}
+		]
+	},
+	{
+		"question": "See... humanity is... beautifully flawed, but full of potential.\nTell me, what do you think about Earth and humans?",
+		"calltoaction": "You respond...",
+		"options": [
+			{
+				"text": "What do you mean by beautifully flawed?",
+				"value": ["I", "J"]
+			},
+			{
+				"text": "I don't know, but I think there's a reason why humans exist.",
+				"value": ["I", "P"]
+			},
+			{
+				"text": "Humans are... messy creatures.\nWe fight and kill, but that's a part of who we are.",
+				"value": ["E", "J"]
+			},
+			{
+				"text": "Earth is my home. My friends and family...\nall that I know presides there.",
+				"value": ["E", "P"]
+			}
+		]
+	},
+	{
+		"cutscene": "[Alien] moves closer to you, and tries to understand your emotions."
+	},
+	{
+		"question": "I did not choose you specifically, [Player].\nYou... just happened to answer my call, do you believe it?",
+		"calltoaction": "You respond...",
+		"options": [
+			{
+				"text": "I find that hard to believe. Besides, what are chances that you found me and not someone else?",
+				"value": ["T", "J"]
+			},
+			{
+				"text": "I thought so, my life is always full of surprises.",
+				"value": ["T", "P"]
+			},
+			{
+				"text": "So I just happened to be there when you arrived on Earth? That's kinda crazy.",
+				"value": ["F", "J"]
+			},
+			{
+				"text": "This feels more like fate to me.",
+				"value": ["F", "P"]
+			}
+		]
+	},
+	{
+		"question": "Well we'll see about that shall we?",
+		"calltoaction": "How do you respond?",
+		"options": [
+			{
+				"text": "I don't know... but I must do something, otherwise Earth is destroyed.",
+				"value": ["J", "I"]
+			},
+			{
+				"text": "Is there a way to convince your leaders to leave Earth alone?\nI don't want people to die!",
+				"value": ["J", "E"]
+			},
+			{
+				"text": "Do you think aliens and humans could get along?\nMaybe your leaders might change their mind.",
+				"value": ["P", "I"]
+			},
+			{
+				"text": "We must stop the aliens from attacking Earth. Will you help me?",
+				"value": ["P", "E"]
+			}
+		]
+	}
+]
