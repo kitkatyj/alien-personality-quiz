@@ -29,14 +29,14 @@
 	let step = $state(-1);
 	let personalitiesCount = $state("");
 	let playerName = $state("");
-	
+
 	$inspect(playerName);
-	
+
 	const handleNextQuestion = (value:[]) => {
 	  personalitiesCount += value.join("");
 	  step += 1;
 	}
-	
+
 	const handleReset = () => {
 	  step = -1;
 		personalitiesCount = ""
@@ -52,11 +52,11 @@
     <Question qn={questions[step]} {handleNextQuestion} {playerName}/>
   {:else}
     <h2>{questions[step].cutscene ? questions[step].cutscene : "Invalid question."}</h2>
-    
+
     {#if step === 0}
       <input bind:value={playerName}/>
     {/if}
-    
+
     <OptionButton text={"Next"} onclick={()=>step+=1} />
   {/if}
 {:else}
@@ -65,4 +65,5 @@
 {/if}
 
 <style>
+
 </style>

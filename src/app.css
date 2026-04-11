@@ -23,3 +23,23 @@ h4, p {
 	font-family: oscine, Helvetica, Arial, sans-serif;
 	text-align:center;
 }
+
+button, input {
+	text-align: center;
+	width: 100%;
+	min-height:64px;
+	font-size: 1.2em;
+	border-radius:16px;
+	margin: 8px 0;
+}
+
+input {
+	background-color:#000;
+	color:#fff;
+}
+
+button {
+	font-family: inherit;
+	border:none;
+	padding: 8px 8px;
+}
