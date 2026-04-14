@@ -1,10 +1,12 @@
 [
 	{
-		"cutscene": "Enter your name"
+		"cutscene": "Enter your name",
+		"img":"https://placehold.co/400/000000/FFFFFF.png?text=Cutscene A"
 	},
 	{
 		"question": "It's late... and you've just reached home after an exhausting day of work.\nThe night sky is full of stars.",
 		"calltoaction": "What are you thinking about?",
+		"img":"https://placehold.co/400/000000/FFFFFF.png?text=Question 1",
 		"options": [
 			{
 				"text": "Time for bed, I have to get up early tomorrow.",
@@ -25,11 +27,13 @@
 		]
 	},
 	{
-		"cutscene": "Suddenly, you hear a voice.\nYou look around, but you find nothing.\nIt seems to come from all around you."
+		"cutscene": "Suddenly, you hear a voice.\nYou look around, but you find nothing.\nIt seems to come from all around you.",
+		"img":"https://placehold.co/400/000000/FFFFFF.png?text=Cutscene B"
 	},
 	{
 		"question": "Can you hear me, [Player]?\nDon't be afraid.",
 		"calltoaction": "How do you respond?",
+		"img":"https://placehold.co/400/000000/FFFFFF.png?text=Question 2",
 		"options": [
 			{
 				"text": "Strange, my inner voice sounds different today...",
@@ -52,6 +56,7 @@
 	{
 		"question": "My name is [Alien],\nI can't show you my real form, but I can produce an... expression of myself. Look at your window.",
 		"calltoaction": "You look and you see...",
+		"img":"https://placehold.co/400/000000/FFFFFF.png?text=Question 3",
 		"options": [
 			{
 				"text": "A shadowy silhouette shaped like a person. You feel goosebumps.",
@@ -74,6 +79,7 @@
 	{
 		"question": "Follow me, I need to show you something.",
 		"calltoaction": "What do you do?",
+		"img":"https://placehold.co/400/000000/FFFFFF.png?text=Question 4",
 		"options": [
 			{
 				"text": "This looks dangerous, I think I'll pass.",
@@ -96,6 +102,7 @@
 	{
 		"question": "[[ You board a weird spaceship / Suddenly, you are abducted into a weird spaceship ]] and you immediately feel it accelerating. Not too long, you notice that you're already in the sky.",
 		"calltoaction": "What are you thinking about?",
+		"img":"https://placehold.co/400/000000/FFFFFF.png?text=Question 5",
 		"options": [
 			{
 				"text": "Wait, hold on a minute!? What is happening?? Am I about to die?",
@@ -118,6 +125,7 @@
 	{
 		"question": "[Alien] appears busy calibrating stuff.",
 		"calltoaction": "How do you react?",
+		"img":"https://placehold.co/400/000000/FFFFFF.png?text=Question 6",
 		"options": [
 			{
 				"text": "(Stay silent)",
@@ -138,11 +146,13 @@
 		]
 	},
 	{
-		"cutscene": "So sorry, thanks for being patient with me. You see, I am the ambassador of your planet for my own. Let me just pull up something real quick."
+		"cutscene": "So sorry, thanks for being patient with me. You see, I am the ambassador of your planet for my own. Let me just pull up something real quick.",
+		"img":"https://placehold.co/400/000000/FFFFFF.png?text=Cutscene C"
 	},
 	{
 		"question": "[Alien] pulls up a map of the nearby star systems. You see that the Earth is marked red.",
 		"calltoaction": "How do you respond?",
+		"img":"https://placehold.co/400/000000/FFFFFF.png?text=Question 7",
 		"options": [
 			{
 				"text": "(Continue staying silent to not draw attention)",
@@ -163,14 +173,17 @@
 		]
 	},
 	{
-		"cutscene": "You might be wondering why your home planet is marked red on the map. Well, the leaders of my home planet have deemed Earth suitable for colonisation, and want to strip your planet of its resources which will kill all life."
+		"cutscene": "You might be wondering why your home planet is marked red on the map. Well, the leaders of my home planet have deemed Earth suitable for colonisation, and want to strip your planet of its resources which will kill all life.",
+		"img":"https://placehold.co/400/000000/FFFFFF.png?text=Cutscene D"
 	},
 	{
-		"cutscene": "I have arrived not too long ago but I want to protect it. But the leaders have rejected any notion to terminate the colonisation program."
+		"cutscene": "I have arrived not too long ago but I want to protect it. But the leaders have rejected any notion to terminate the colonisation program.",
+		"img":"https://placehold.co/400/000000/FFFFFF.png?text=Cutscene E"
 	},
 	{
 		"question": "I have essentially been deemed as a traitor to my species, and you are my last resort.",
 		"calltoaction": "How do you respond?",
+		"img":"https://placehold.co/400/000000/FFFFFF.png?text=Question 8",
 		"options": [
 			{
 				"text": "Now that's quite a pickle.",
@@ -193,6 +206,7 @@
 	{
 		"question": "You turn your head and see the whole of the Earth floating just outside the window.",
 		"calltoaction": "What are you thinking about?",
+		"img":"https://placehold.co/400/000000/FFFFFF.png?text=Question 9",
 		"options": [
 			{
 				"text": "So this is what astronauts see from space...\nit's just like the images on the internet.",
@@ -215,6 +229,7 @@
 	{
 		"question": "See... humanity is... beautifully flawed, but full of potential.\nTell me, what do you think about Earth and humans?",
 		"calltoaction": "You respond...",
+		"img":"https://placehold.co/400/000000/FFFFFF.png?text=Question 10",
 		"options": [
 			{
 				"text": "What do you mean by beautifully flawed?",
@@ -235,11 +250,13 @@
 		]
 	},
 	{
-		"cutscene": "[Alien] moves closer to you, and tries to understand your emotions."
+		"cutscene": "[Alien] moves closer to you, and tries to understand your emotions.",
+		"img":"https://placehold.co/400/000000/FFFFFF.png?text=Cutscene F"
 	},
 	{
 		"question": "I did not choose you specifically, [Player].\nYou... just happened to answer my call, do you believe it?",
 		"calltoaction": "You respond...",
+		"img":"https://placehold.co/400/000000/FFFFFF.png?text=Question 11",
 		"options": [
 			{
 				"text": "I find that hard to believe. Besides, what are chances that you found me and not someone else?",
@@ -262,6 +279,7 @@
 	{
 		"question": "Well we'll see about that shall we?",
 		"calltoaction": "How do you respond?",
+		"img":"https://placehold.co/400/000000/FFFFFF.png?text=Question 12",
 		"options": [
 			{
 				"text": "I don't know... but I must do something, otherwise Earth is destroyed.",
